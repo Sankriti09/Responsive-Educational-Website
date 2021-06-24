@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>weEducate - Transforming Online Education</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/img.jpg" alt = "logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name = "search" id = "search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstsection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The Future Of Education is Here</p>
+                <p class="text-small">In this world of 7 billion people 
+                    we need to educate everyone.</p> 
+                <p class="text-small"><b>It will be a future of an educated world and 
+                    we are proud to say 
+                    that we are here to educate you with the best of some paltforms!!</b></p>
+                <div class="buttons">
+                    <button class="btn" onclick="window.location.href = 'https://www.w3schools.com';">Open W3Schools</button>
+
+                    <button class="btn" onclick="window.open('https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg');" new window>Watch Video Playlist</button>
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="img/img1.jpg" alt="Laptop Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">The end of illiteracy is here..</p>
+        <p class="sectionSubTag text-small">Education in India is primarily managed by state-run public education system, 
+            which fall under the command of the government at three levels: federal, state and local.
+            Under various articles of the Indian Constitution and the Right of Children to Free and Compulsory Education Act, 2009, 
+            free and compulsory education is provided as a fundamental right to children aged 6 to 14. 
+            The approximate ratio of public schools to private schools in India is 7:5. 
+            We present you the links from where you can study well!! We have a step to educate everyone in terms of programming.
+            You can learn any programming langauge from here, just the matter of one click. </p>
+        </div>
+        <div class="thumbnail">
+            <a href="https://www.greatlearning.in/"><img src="https://source.unsplash.com/900x900/?happy,dbms" alt="Laptop Image" class="imgFluid"></a>
+        </div>
+    </section>
+
+    <section class="section section-left" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">Transforming Education In India</p>
+        <p class="sectionSubTag text-small">Transformative pedagogy "encourages students to critically examine their assumptions, 
+            grapple with social issues, and engage in social action". Five suggestions for preparing the online environment for 
+            transformative pedagogy are: "(a) create a safe and inviting environment; (b) encourage students to think about their experiences, beliefs, 
+            and biases; (c) use teaching strategies that promote student engagement and participation; (d) pose real-world problems that address societal 
+            inequalities; and (e) help students implement action-oriented solutions". 
+            </p>
+            <p class="sectionSubTag text-small"><b>
+                We provide you the best and experienced platforms form where you can enahnce your skills.</b>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <a href="https://www.conduiraonline.com/"><img src="https://source.unsplash.com/900x900/?coding,html" alt="Laptop Image" class="imgFluid"></a>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big">"LETS GROW TOGETHER"</p>
+        <p class="sectionSubTag text-small">Delivery of instruction using different web-based technologies, 
+            from the Internet or an intranet and other communication technologies that enable students to 
+            participate in learning activities beyond the campus.
+            We Welcome you to the platform where we consistently strive to offer the best of education.
+            This platform has been designed for every student to exapnd their knowledge. 
+            We provide a healthy environment as well as online website links and videos for programming student.
+            Thanks for choosing us!</p>
+        <script>
+            //alert("Thankyou for choosing us!. WE'll reach you soon..")
+            //let name = prompt("Do you want to continue?","Yes");
+            //console.log(name);
+
+            let data = confirm("Are you sure??");
+            console.log(data)
+        </script>
+        <p class="sectionSubTag text-small">"LETS GROW TOGETHER.."</p>
+        </div>
+        <div class="thumbnail">
+            <a href="https://www.udemy.com/courses/free/"><img src="https://source.unsplash.com/900x900/?Javascript,student" alt="Laptop Image" class="imgFluid"></a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="text-advance">Contact Us</h1>
+        <form class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" required>
+            <input class="form-input" type="number" name="phone" id="phone" placeholder="Enter your Phone" required>
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email" required>
+            <input class="form-input" type="number" name="phone" id="age" placeholder="Enter your age" required>
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your concern"></textarea>
+            <button class="btn btn-sm btn-dark" id="check" onclick="openpage()" type="button">Submit</button>
+        </form>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2027 - www.weEducate.com- All rights reserved
+        </p>
+    </footer>
+    <script src="resp.js"></script>
+
+</body>
+</html>
